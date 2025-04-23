@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive modal compnent</title>
     <link rel="stylesheet" href="style.css">
-    <script src="myscript.js"></script>
 </head>
 <body>
     <!-- Button to trigger modal -->
@@ -15,10 +14,18 @@
 
         <!-- Modal content -->
          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Some text in the modal..</p>
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal..</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer"> 
+            </div>
          </div>
-
     </div>
+    <script src="myscript.js"></script>
 </body>
 </html>
